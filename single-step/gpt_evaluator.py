@@ -1,0 +1,61 @@
+import json
+from gpt_generator import parallel_gpt_generate
+from tqdm import tqdm
+from argparse import ArgumentParser
+
+
+def construct_history(history):
+    dic = {}
+    cnt = 1
+    for i in range(0, len(history), 2):
+        dic[f'Turn{cnt}'] = {
+            "Agent": history[i],
+            "user": history[i + 1]
+        }
+        cnt += 1
+    return dic
+
+
+def func(result_name):
+    with open("template/template_manual_cot.txt", encoding='utf-8') as f:
+        template = f.read()
+    with open(f'./output/parsed/{result_name}', encoding='utf-8') as f:
+        results = json.load(f)
+    cnt = 0
+    inputs = []
+    last_bs = {}
+    for each in tqdm(results):
+        dialogue_idx, turn_idx = each['flag'].split('-')
+        if turn_idx == '0':
+            last_bs = {}
+        history = '\n'.join(['Agent: ' + each['history'][i] + '\n' + 'User: ' + each['history'][i + 1] for i in range(0, len(each['history']), 2)])
+        turn_label = str(each['predict_turn_label'])
+        dic = {
+            'history': str(construct_history(each['history'])),
+            'turn_label': turn_label,
+            'user': each['user'],
+            'system': each['system'],
+            'last_state': last_bs,
+        }
+        prompt = template.format(**dic)
+        # print(prompt)
+        # print('-' * 200)
+        # break
+        inputs.append({'gpt_input': prompt, 'align_data': each})
+        cnt += 1
+        # if cnt > 10:
+        #     break
+        last_bs = each['predict']
+    res = parallel_gpt_generate(inputs)
+    with open(f'./output/output_{result_name}', 'w', encoding='utf-8') as file:
+        lst = []
+        for align_data, gpt_out, gpt_input in res:
+            lst.append([align_data, gpt_out, gpt_input])
+        json.dump(lst, file, ensure_ascii=False, indent=2)
+
+
+if __name__ == '__main__':
+    parser = ArgumentParser()
+    parser.add_argument('--result_name', default='original_sampled.json', type=str)
+    args = parser.parse_args()
+    func(args.result_path)

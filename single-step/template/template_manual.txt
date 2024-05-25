@@ -1,0 +1,51 @@
+# Dialogue History:
+{history}
+
+# Current Turn:
+{{
+"Agent": {system},
+"User": {user},
+"State of this turn": {turn_label}
+}}
+
+# Instruction:
+Your task is to assess the accuracy and completeness of the state of the current turn. The turn state is represented by a set of domain-slot, value pairs that represent only the state mentioned in the current turn utterances between the agent and the user, without considering the entire dialogue history.
+
+For accuracy, you must evaluate whether each domain-slot, value pair in the local turn state is correct based on the turn utterances.
+
+For completeness, you must determine if all relevant domain-slot-value pairs in the turn utterances have been captured in the turn state. Only domain-slot, value pairs that are new or have been updated in the current turn should be included. If a domain-slot-value pair has been mentioned previously in the dialogue and has not changed, it should not be considered a missed domain-slot.
+
+When the agent provides a recommendation and the user either confirms acceptance or requests more information, the user is considered to have accepted the recommendation. In this case, the turn state should include the details of the recommendation. However, information that the user has requested should not be included in the turn state, as the agent is expected to provide these details in the subsequent turn.
+
+If user express that he/she does not care about some domain-slot, the state should contain these domain-slots with the value "dontcare"
+
+There are five domains that the AI agent supported, and their slots are listed in the following:
+1. Hotel: {{area, type, internet, parking, name, book day, price range, stars, book stay, book people}}
+2. Restaurant: {{area, book day, book people, book time, food, name, price range}}
+3. Attraction: {{area, name, type}}
+4. Taxi: {{arrive by, departure, destination, leave at}}
+5. Train: {{book people, day, departure, destination, leave at}}
+
+Categorical slots and their possible values:
+1. Area: centre, east, south, west, north
+2. Internet: yes, no
+3. Parking: yes, no
+4. Price range: cheap, moderate, expensive
+5. Stars: 1, 2, 3, 4, 5
+6. Day: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+7. Hotel-type: hotel, guest house
+8. Book people: 1, 2, 3, ..., 15
+9. Book stay: 1, 2, 3, ..., 15
+10. Arrive by & leave at: time in forms of “xx:xx” such as “13:00”
+
+Remember that domain-slot, value pairs mentioned in the dialogue history but not changed in the current turn should not be considered while evaluating.
+
+# Output Format:
+Please output your analysis in JSON format as follows:
+{{
+"explanation": <a belief explanation of your judgement>,
+// incorrect domain-slot, value pairs in "State of this turn". Note that only domain-slot, value pairs in "State of this turn" should be evaluated.
+"incorrect_domain_slot": {{"domain-slot1": <value1>, ...}},
+// missed domain-slot, value pairs in "State of this turn". Note that domain-slot, value pairs not mentioned in the current turn utterances should not be considered and those value has not been expressed should not be
+"missed_domain_slot": {{"domain-slot1": <its corresponding value>, ...}}
+}}

@@ -1,0 +1,3355 @@
+[
+  {
+    "flag": "SNG0073.json-1",
+    "system": "what time do you want to leave and what time do you want to arrive by ?",
+    "user": "i want to leave after 17:15 .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": [
+          "taxi-leaveat"
+        ]
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "taxi-destination": "pizza hut fen ditton",
+      "taxi-departure": "saint john s college",
+      "taxi-leaveat": "17:15"
+    },
+    "turn_label_m21": {
+      "taxi-leaveat": "17:15"
+    },
+    "turn_label_m24": {
+      "taxi-leaveat": "17:15"
+    },
+    "predict_turn_label": {
+      "taxi-leaveat": "17:15"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL2569.json-6",
+    "system": "you are booked as requested , the reference number is gocjzgyz , may i assist with anything else ?",
+    "user": "yes i would also like a taxi to commute between the 2 place -s .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-type": "theatre",
+      "attraction-area": "south",
+      "hotel-pricerange": "expensive",
+      "hotel-internet": "yes",
+      "hotel-book people": "6",
+      "hotel-book stay": "5",
+      "hotel-book day": "saturday"
+    },
+    "turn_label_m21": {
+      "taxi-destination": "express by holiday inn cambridge",
+      "taxi-departure": "the junction"
+    },
+    "turn_label_m24": {
+      "taxi-destination": "express by holiday inn cambridge",
+      "taxi-departure": "the junction"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL3647.json-0",
+    "system": "",
+    "user": "i need info about the slug and lettuce restaurant .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-name": "slug and lettuce"
+    },
+    "turn_label_m21": {
+      "restaurant-name": "the slug and lettuce"
+    },
+    "turn_label_m24": {
+      "restaurant-name": "the slug and lettuce"
+    },
+    "predict_turn_label": {
+      "restaurant-name": "slug and lettuce"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL3647.json-3",
+    "system": "the south side has a lot going on . there s ceneworld cinema for movies , the place is a great nightclub and there are some museums in the area as well .",
+    "user": "thanks ! will you give me an entrance fee for the nightclub ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-name": "slug and lettuce",
+      "restaurant-book day": "thursday",
+      "restaurant-book people": "4",
+      "restaurant-book time": "11:00",
+      "attraction-area": "south"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {
+      "attraction-type": "nightclub",
+      "attraction-name": "the place"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL1350.json-6",
+    "system": "that booking was successful . the reference number is kay2s45o . is there anything else i can do for you ?",
+    "user": "yes , i would like a reserve a taxi to commute between the allenbell and royal spice . i really want to be on time for our dinner reservation .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-pricerange": "cheap",
+      "hotel-area": "east",
+      "hotel-book day": "thursday",
+      "hotel-book people": "8",
+      "hotel-book stay": "4",
+      "restaurant-food": "indian",
+      "restaurant-type": "hotel"
+    },
+    "turn_label_m21": {
+      "taxi-destination": "royal spice",
+      "taxi-departure": "allenbell"
+    },
+    "turn_label_m24": {
+      "taxi-destination": "royal spice",
+      "taxi-departure": "allenbell",
+      "taxi-arriveby": "12:45"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL2162.json-6",
+    "system": "yes , all of them have free parking . which part of the city would you like to stay ?",
+    "user": "any , i'll take the first 1 on your list , and i'll need the address , and phone number please .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "train-destination": "london kings cross",
+      "train-arriveby": "16:00",
+      "train-day": "saturday",
+      "train-departure": "cambridge",
+      "hotel-pricerange": "moderate",
+      "hotel-internet": "yes",
+      "hotel-type": "guest house",
+      "hotel-area": "south"
+    },
+    "turn_label_m21": {
+      "hotel-area": "dontcare"
+    },
+    "turn_label_m24": {
+      "hotel-area": "dontcare"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL2162.json-7",
+    "system": "the bridge guest house is at 151 hills road and their number is 01223247942 .",
+    "user": "awesome thank you . that is all i needed .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-name"
+      ]
+    },
+    "predicted": {
+      "train-destination": "london kings cross",
+      "train-arriveby": "16:00",
+      "train-day": "saturday",
+      "train-departure": "cambridge",
+      "hotel-pricerange": "moderate",
+      "hotel-internet": "yes",
+      "hotel-type": "guest house",
+      "hotel-area": "south"
+    },
+    "turn_label_m21": {
+      "hotel-name": "bridge guest house"
+    },
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL0845.json-1",
+    "system": "there are over 60 restaurant -s near the center of town , do you have a cuisine or price range in mind ?",
+    "user": "yes , something in the affordable price range . also , do any of them serve singaporean food ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-area": "centre",
+      "restaurant-food": "singaporean"
+    },
+    "turn_label_m21": {
+      "restaurant-food": "singaporean",
+      "restaurant-pricerange": "cheap"
+    },
+    "turn_label_m24": {
+      "restaurant-food": "singaporean",
+      "restaurant-pricerange": "cheap"
+    },
+    "predict_turn_label": {
+      "restaurant-food": "singaporean"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL0845.json-2",
+    "system": "there are no singaporean restaurant -s , but there are cheap ones offering several different cuisines .",
+    "user": "okay what about italian food then ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-area": "centre",
+      "restaurant-food": "italian",
+      "restaurant-pricerange": "cheap"
+    },
+    "turn_label_m21": {
+      "restaurant-food": "italian"
+    },
+    "turn_label_m24": {
+      "restaurant-food": "italian"
+    },
+    "predict_turn_label": {
+      "restaurant-pricerange": "cheap",
+      "restaurant-food": "italian"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL1139.json-0",
+    "system": "",
+    "user": "hello there ! could you help me find a hotel ? i am looking for 1 that has free parking and is expensive .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-pricerange": "expensive",
+      "hotel-type": "hotel",
+      "hotel-parking": "yes"
+    },
+    "turn_label_m21": {
+      "hotel-parking": "yes",
+      "hotel-pricerange": "expensive"
+    },
+    "turn_label_m24": {
+      "hotel-parking": "yes",
+      "hotel-pricerange": "expensive"
+    },
+    "predict_turn_label": {
+      "hotel-pricerange": "expensive",
+      "hotel-type": "hotel",
+      "hotel-parking": "yes"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL1139.json-2",
+    "system": "we have the university arms hotel . it is located in centre and has wifi and parking . would you like me to book that for you ?",
+    "user": "yes , as long as it is expensive . i would like to arrive on tuesday and stay for 3 nights . there will be 8 of us .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-pricerange": "upscale",
+      "hotel-type": "hotel",
+      "hotel-parking": "yes",
+      "hotel-book people": "8",
+      "hotel-book day": "tuesday",
+      "hotel-book stay": "3"
+    },
+    "turn_label_m21": {
+      "hotel-book day": "tuesday",
+      "hotel-book people": "8",
+      "hotel-book stay": "3"
+    },
+    "turn_label_m24": {
+      "hotel-book day": "tuesday",
+      "hotel-book people": "8",
+      "hotel-book stay": "3",
+      "hotel-name": "university arms hotel"
+    },
+    "predict_turn_label": {
+      "hotel-book people": "8",
+      "hotel-book day": "tuesday",
+      "hotel-book stay": "3"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL1139.json-8",
+    "system": "all right . i have booked you a black volkswagen , picking you up at 24:30 at christ s college . the contact number is 07324891478 . is there anything else i can help with ?",
+    "user": "no , that s all . thanks .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "taxi-departure"
+      ]
+    },
+    "predicted": {
+      "hotel-pricerange": "upscale",
+      "hotel-type": "hotel",
+      "hotel-parking": "yes",
+      "hotel-book people": "8",
+      "hotel-book day": "tuesday",
+      "hotel-book stay": "2",
+      "attraction-type": "college",
+      "attraction-area": "centre",
+      "taxi-leaveat": "24:30"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL2215.json-9",
+    "system": "yes , what 2 place -s do you need to travel between ?",
+    "user": "the hotel and the restaurant .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-type": "college",
+      "attraction-area": "centre",
+      "attraction-name": "all saints church",
+      "restaurant-food": "asian oriental",
+      "restaurant-pricerange": "cheap",
+      "restaurant-area": "centre",
+      "restaurant-name": "j restaurant",
+      "restaurant-book people": "3",
+      "restaurant-book time": "19:00",
+      "restaurant-book day": "sunday"
+    },
+    "turn_label_m21": {
+      "taxi-destination": "j restaurant",
+      "taxi-arriveby": "19:00"
+    },
+    "turn_label_m24": {
+      "taxi-destination": "j restaurant"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL2497.json-7",
+    "system": "the phone number for the cambridge punter is 07807718591 . is there anything else i can help you with ?",
+    "user": "i need a cab too please , arriving by my booked time , car type and contact number would be helpful too please .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-area": "centre",
+      "restaurant-pricerange": "moderate",
+      "restaurant-food": "modern european",
+      "restaurant-book people": "7",
+      "restaurant-book day": "wednesday",
+      "restaurant-book time": "19:30",
+      "attraction-area": "centre",
+      "attraction-type": "boat",
+      "attraction-name": "cambridge punter"
+    },
+    "turn_label_m21": {
+      "taxi-arriveby": "19:30"
+    },
+    "turn_label_m24": {
+      "taxi-arriveby": "19:30"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL1276.json-0",
+    "system": "",
+    "user": "i heard you have good cheap restaurant -s . while i am there , i would like to try 1 ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-food": "dontcare",
+      "restaurant-pricerange": "cheap"
+    },
+    "turn_label_m21": {
+      "restaurant-pricerange": "cheap"
+    },
+    "turn_label_m24": {
+      "restaurant-pricerange": "cheap"
+    },
+    "predict_turn_label": {
+      "restaurant-food": "dontcare",
+      "restaurant-pricerange": "cheap"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL1276.json-2",
+    "system": "there are several options available to you , is there a specific type of food you are wanting to try ?",
+    "user": "anything will work , book me for what available , ill need the postal code for wherever i am booked .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-food": "dontcare",
+      "restaurant-pricerange": "cheap",
+      "restaurant-area": "centre"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {
+      "restaurant-food": "dontcare"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "SNG1026.json-0",
+    "system": "",
+    "user": "can you help me find a moderate price place to stay that include -s free parking ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-pricerange": "moderate",
+      "hotel-type": "hotel",
+      "hotel-parking": "yes"
+    },
+    "turn_label_m21": {
+      "hotel-parking": "yes",
+      "hotel-pricerange": "moderate"
+    },
+    "turn_label_m24": {
+      "hotel-parking": "yes",
+      "hotel-pricerange": "moderate"
+    },
+    "predict_turn_label": {
+      "hotel-pricerange": "moderate",
+      "hotel-type": "hotel",
+      "hotel-parking": "yes"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "SNG1026.json-2",
+    "system": "no it does not . but the ashley hotel has 2 stars and free parking . it is a moderate also .",
+    "user": "is there somewhere with both free wifi and parking ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-pricerange": "moderate",
+      "hotel-type": "hotel",
+      "hotel-parking": "yes",
+      "hotel-internet": "yes",
+      "hotel-stars": "2",
+      "hotel-name": "ashley hotel"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {
+      "hotel-name": "ashley hotel"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "SNG1026.json-3",
+    "system": "yes . the ashley hotel has both free wifi and parking . would you like to make a reservation ?",
+    "user": "i am not quite ready to make a reservation yet , but could you please get the address for me ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-pricerange": "moderate",
+      "hotel-type": "hotel",
+      "hotel-parking": "yes",
+      "hotel-internet": "yes",
+      "hotel-stars": "2",
+      "hotel-name": "ashley hotel"
+    },
+    "turn_label_m21": {
+      "hotel-name": "ashley hotel"
+    },
+    "turn_label_m24": {
+      "hotel-name": "ashley hotel"
+    },
+    "predict_turn_label": {
+      "hotel-name": "ashley hotel"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL4388.json-1",
+    "system": "and what would you like to do ?",
+    "user": "i keep hearing about this great museum called the fitzwilliam . can you tell me a little about it ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-name": "cambridge",
+      "attraction-type": "museum"
+    },
+    "turn_label_m21": {
+      "attraction-type": "museum",
+      "attraction-name": "fitzwilliam museum"
+    },
+    "turn_label_m24": {
+      "attraction-name": "fitzwilliam museum"
+    },
+    "predict_turn_label": {
+      "attraction-type": "museum"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL1762.json-6",
+    "system": "the ashley hotel does meet your requirement -s in the north .",
+    "user": "that would be great , can you book it on saturday for 1 person for 5 nights .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": [
+          "hotel-book day"
+        ]
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "train-departure": "cambridge",
+      "train-destination": "broxbourne",
+      "train-day": "thursday",
+      "train-book people": "1",
+      "hotel-internet": "yes",
+      "hotel-stars": "2",
+      "hotel-type": "hotel",
+      "hotel-area": "north",
+      "hotel-book stay": "5",
+      "hotel-name": "ashley hotel",
+      "hotel-book day": "saturday",
+      "hotel-book people": "1"
+    },
+    "turn_label_m21": {
+      "hotel-book day": "saturday",
+      "hotel-book people": "1",
+      "hotel-book stay": "5",
+      "hotel-name": "ashley hotel"
+    },
+    "turn_label_m24": {
+      "hotel-book day": "saturday",
+      "hotel-book people": "1",
+      "hotel-book stay": "5",
+      "hotel-name": "ashley hotel"
+    },
+    "predict_turn_label": {
+      "hotel-book stay": "5",
+      "hotel-name": "ashley hotel",
+      "hotel-book day": "saturday",
+      "hotel-book people": "1"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "SNG01940.json-1",
+    "system": "i can , would you like to take a taxi and from where ?",
+    "user": "yes , a taxi would be great . and i want to depart from williams art and antiques",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "taxi-destination"
+      ]
+    },
+    "predicted": {
+      "restaurant-name": "michaelhouse cafe",
+      "restaurant-arriveby": "12:45",
+      "taxi-departure": "williams art and antiques"
+    },
+    "turn_label_m21": {
+      "taxi-departure": "williams art and antiques"
+    },
+    "turn_label_m24": {
+      "taxi-departure": "williams art and antiques"
+    },
+    "predict_turn_label": {
+      "taxi-departure": "williams art and antiques"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "SNG01957.json-0",
+    "system": "",
+    "user": "i am looking for a place to stay . the hotel should be in the cheap price range and should be in the north",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-area": "north",
+      "hotel-pricerange": "cheap"
+    },
+    "turn_label_m21": {
+      "hotel-area": "north",
+      "hotel-pricerange": "cheap"
+    },
+    "turn_label_m24": {
+      "hotel-area": "north",
+      "hotel-pricerange": "cheap",
+      "hotel-type": "hotel"
+    },
+    "predict_turn_label": {
+      "hotel-area": "north",
+      "hotel-pricerange": "cheap"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "SNG01957.json-2",
+    "system": "i think the worth house is your best bet !",
+    "user": "alright . book that 1 for me",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-stars"
+      ]
+    },
+    "predicted": {
+      "hotel-area": "north",
+      "hotel-pricerange": "cheap",
+      "hotel-name": "worth house"
+    },
+    "turn_label_m21": {
+      "hotel-name": "worth house"
+    },
+    "turn_label_m24": {
+      "hotel-name": "worth house"
+    },
+    "predict_turn_label": {
+      "hotel-name": "worth house"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL4131.json-4",
+    "system": "any preference on area or type of attraction ?",
+    "user": "some entertainment in the centre .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-name": "carolina bed and breakfast",
+      "hotel-book people": "5",
+      "hotel-book day": "saturday",
+      "hotel-book stay": "4",
+      "attraction-area": "centre"
+    },
+    "turn_label_m21": {
+      "attraction-type": "entertainment",
+      "attraction-area": "centre"
+    },
+    "turn_label_m24": {
+      "attraction-type": "entertainment",
+      "attraction-area": "centre"
+    },
+    "predict_turn_label": {
+      "attraction-area": "centre"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL4131.json-6",
+    "system": "i would recommend all saints church . the entrance fee is free , the postcode is cb58bs , and the phone number is 01223452587 .",
+    "user": "great . that is all the info i needed today .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "attraction-name"
+      ]
+    },
+    "predicted": {
+      "hotel-name": "carolina bed and breakfast",
+      "hotel-book people": "5",
+      "hotel-book day": "saturday",
+      "hotel-book stay": "4",
+      "attraction-area": "centre",
+      "attraction-type": "architecture"
+    },
+    "turn_label_m21": {
+      "attraction-name": "all saints church"
+    },
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL4059.json-0",
+    "system": "",
+    "user": "i am looking for a place to stay . the hotel should include free wifi and should include free parking .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-internet": "yes",
+      "hotel-type": "hotel",
+      "hotel-parking": "yes"
+    },
+    "turn_label_m21": {
+      "hotel-parking": "yes",
+      "hotel-internet": "yes"
+    },
+    "turn_label_m24": {
+      "hotel-parking": "yes",
+      "hotel-internet": "yes"
+    },
+    "predict_turn_label": {
+      "hotel-internet": "yes",
+      "hotel-type": "hotel",
+      "hotel-parking": "yes"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL4059.json-2",
+    "system": "oh , yes , there are 9 . i do recommend the autumn house .",
+    "user": "great , could you give me their phone number and address please ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-internet": "yes",
+      "hotel-type": "guest house",
+      "hotel-parking": "yes",
+      "hotel-pricerange": "cheap"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {
+      "hotel-name": "autumn house"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL2778.json-5",
+    "system": "christ s college is in the centre and has free entrance fee .",
+    "user": "thank you . can you tell me their post code please ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": [
+          "attraction-name"
+        ]
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-internet": "yes",
+      "hotel-pricerange": "expensive",
+      "hotel-book day": "thursday",
+      "hotel-book stay": "3",
+      "attraction-type": "college",
+      "attraction-area": "centre",
+      "attraction-name": "christ college"
+    },
+    "turn_label_m21": {
+      "attraction-name": "christ college"
+    },
+    "turn_label_m24": {
+      "attraction-name": "christ college"
+    },
+    "predict_turn_label": {
+      "attraction-name": "christ college"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL4884.json-3",
+    "system": "it arrives at 18:08 and i will need to know number of people travelling .",
+    "user": "tr7804 , thank you . it s just me traveling , but i am also looking to stay at the cambridge belfry . where is that ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-area"
+      ]
+    },
+    "predicted": {
+      "train-departure": "london kings cross",
+      "train-leaveat": "16:45",
+      "train-day": "saturday",
+      "train-destination": "cambridge",
+      "hotel-name": "cambridge belfry",
+      "train-book people": "1"
+    },
+    "turn_label_m21": {
+      "hotel-name": "cambridge belfry",
+      "train-book people": "1"
+    },
+    "turn_label_m24": {
+      "hotel-name": "cambridge belfry",
+      "train-book people": "1"
+    },
+    "predict_turn_label": {
+      "hotel-name": "cambridge belfry",
+      "train-book people": "1"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL0004.json-4",
+    "system": "i have results for 2 guesthouses with 0 star rating -s , 1 is in the north and 1 is in the centre . which area do you prefer ?",
+    "user": "which 1 has free parking and wifi ? i will need a phone number , price range and area as well please .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-stars"
+      ]
+    },
+    "predicted": {
+      "restaurant-name": "nandos city centre",
+      "restaurant-book day": "wednesday",
+      "restaurant-book people": "4",
+      "restaurant-book time": "15:00",
+      "hotel-type": "guest house",
+      "hotel-internet": "yes",
+      "hotel-parking": "yes"
+    },
+    "turn_label_m21": {
+      "hotel-parking": "yes",
+      "hotel-internet": "yes"
+    },
+    "turn_label_m24": {
+      "hotel-parking": "yes",
+      "hotel-internet": "yes"
+    },
+    "predict_turn_label": {
+      "hotel-internet": "yes",
+      "hotel-parking": "yes",
+      "hotel-name": "none"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL0004.json-5",
+    "system": "the city centre north bed and breakfast has parking and wifi . it is in the north area . would you like to book this hotel ?",
+    "user": "i do not want a booking . just give me the phone number and price range , please .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-name": "nandos city centre",
+      "restaurant-book day": "wednesday",
+      "restaurant-book people": "4",
+      "restaurant-book time": "15:00",
+      "hotel-type": "guest house",
+      "hotel-internet": "yes",
+      "hotel-parking": "yes"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {
+      "hotel-name": "city centre north bed and breakfast"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "SNG0547.json-0",
+    "system": "",
+    "user": "i am looking for a high end indian restaurant , are there any in town ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-pricerange": "high",
+      "restaurant-food": "indian"
+    },
+    "turn_label_m21": {
+      "restaurant-food": "indian",
+      "restaurant-pricerange": "expensive"
+    },
+    "turn_label_m24": {
+      "restaurant-food": "indian",
+      "restaurant-pricerange": "expensive",
+      "restaurant-area": "dontcare"
+    },
+    "predict_turn_label": {
+      "restaurant-pricerange": "high",
+      "restaurant-food": "indian"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL3145.json-1",
+    "system": "yes , i have nandos located in the south and nandos city centre located in the centre . will 1 of these work for you ?",
+    "user": "yes , i will make a reservation at nandos in the south part of the city for 5 people on thursday .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-food": "portuguese",
+      "restaurant-pricerange": "cheap",
+      "restaurant-book day": "thursday",
+      "restaurant-book people": "5",
+      "restaurant-name": "nandos south"
+    },
+    "turn_label_m21": {
+      "restaurant-book day": "thursday",
+      "restaurant-book people": "5",
+      "restaurant-name": "nandos",
+      "restaurant-area": "south"
+    },
+    "turn_label_m24": {
+      "restaurant-book day": "thursday",
+      "restaurant-book people": "5",
+      "restaurant-name": "nandos",
+      "restaurant-area": "south"
+    },
+    "predict_turn_label": {
+      "restaurant-book day": "thursday",
+      "restaurant-book people": "5",
+      "restaurant-name": "nandos south"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL3145.json-3",
+    "system": "your reservation reference number is : smh06ms1 . the table will be held for 15 minutes from the time of your reservation . may i assist you with anything else ?",
+    "user": "i need a place to stay as well . i need free parking .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-food": "portuguese",
+      "restaurant-pricerange": "cheap",
+      "restaurant-book day": "thursday",
+      "restaurant-book people": "5",
+      "restaurant-name": "nandos south",
+      "restaurant-book time": "14:45",
+      "hotel-parking": "free"
+    },
+    "turn_label_m21": {
+      "hotel-parking": "yes"
+    },
+    "turn_label_m24": {
+      "hotel-parking": "yes"
+    },
+    "predict_turn_label": {
+      "hotel-parking": "free"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL1588.json-5",
+    "system": "my apologies . how about this: tr3420 leaves cambridge at 13:50 and arrives in ely at 14:07 . would this be better ?",
+    "user": "yes i would like reservations on train tr3420 .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "train-departure"
+      ]
+    },
+    "predicted": {
+      "restaurant-name": "charlie chan",
+      "train-destination": "ely",
+      "train-day": "tuesday",
+      "train-leaveat": "12:30"
+    },
+    "turn_label_m21": {
+      "train-leaveat": "13:50",
+      "train-arriveby": "14:07"
+    },
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL4231.json-4",
+    "system": "i would recommend the hotpot . would you like a reservation or more information ?",
+    "user": "yes could you give me their postcode ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-area": "north",
+      "restaurant-food": "chinese"
+    },
+    "turn_label_m21": {
+      "restaurant-name": "the hotpot"
+    },
+    "turn_label_m24": {
+      "restaurant-name": "the hotpot"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL4231.json-7",
+    "system": "yes there are 2 pools . i highly suggest the jesus green outdoor pool . would you like more information ?",
+    "user": "yes , that sounds great can you send me all the info .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-area": "north",
+      "restaurant-food": "chinese",
+      "attraction-area": "north"
+    },
+    "turn_label_m21": {
+      "attraction-name": "jesus green outdoor pool"
+    },
+    "turn_label_m24": {
+      "attraction-name": "jesus green outdoor pool"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "SNG0636.json-2",
+    "system": "both of the named restaurant -s are in the moderate price range .",
+    "user": "ok , can you book a table for 6 at 12:00 on tuesday at the varsity restaurant ? i will need a reference number too , please .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-area": "centre",
+      "restaurant-food": "international",
+      "restaurant-pricerange": "moderate",
+      "restaurant-book day": "tuesday",
+      "restaurant-book time": "12:00",
+      "restaurant-name": "varsity restaurant",
+      "restaurant-book people": "6"
+    },
+    "turn_label_m21": {
+      "restaurant-book day": "tuesday",
+      "restaurant-book people": "6",
+      "restaurant-book time": "12:00",
+      "restaurant-name": "the varsity restaurant"
+    },
+    "turn_label_m24": {
+      "restaurant-book day": "tuesday",
+      "restaurant-book people": "6",
+      "restaurant-book time": "12:00",
+      "restaurant-name": "the varsity restaurant"
+    },
+    "predict_turn_label": {
+      "restaurant-book day": "tuesday",
+      "restaurant-book time": "12:00",
+      "restaurant-name": "varsity restaurant",
+      "restaurant-book people": "6"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL4998.json-6",
+    "system": "broughton house gallery can be reached by phone at 01223314960 . their address is 98 king street . will that be all today ?",
+    "user": "yes , that will be all . thank you .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "attraction-name"
+      ]
+    },
+    "predicted": {
+      "train-destination": "cambridge",
+      "train-arriveby": "10:15",
+      "train-day": "tuesday",
+      "train-departure": "bishops storford",
+      "attraction-area": "centre",
+      "attraction-type": "museum"
+    },
+    "turn_label_m21": {
+      "attraction-name": "broughton house gallery"
+    },
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL1920.json-1",
+    "system": "i have 33 choices . is there a particular area you would like to stay in ?",
+    "user": "i do not have a particular area . it does need to be moderate -ly priced .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-pricerange": "moderate"
+    },
+    "turn_label_m21": {
+      "hotel-area": "dontcare",
+      "hotel-pricerange": "moderate"
+    },
+    "turn_label_m24": {
+      "hotel-area": "dontcare",
+      "hotel-pricerange": "moderate"
+    },
+    "predict_turn_label": {
+      "hotel-pricerange": "moderate"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL1920.json-5",
+    "system": "i am afraid there are not any in the centre part of town . would you like to try a different part of town ?",
+    "user": "ok then i will go ahead and take any of the moderate -ly priced ones with free parking and wifi . please recommend 1 of the 12 . any area is fine .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-pricerange": "moderate",
+      "hotel-parking": "free",
+      "hotel-type": "guest house",
+      "hotel-area": "centre"
+    },
+    "turn_label_m21": {
+      "hotel-area": "dontcare"
+    },
+    "turn_label_m24": {
+      "hotel-area": "dontcare"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL1920.json-8",
+    "system": "tr6583 leaves cambridge at 09:00 and arrives at london kings cross at 09:51 . do you want me to book this ?",
+    "user": "yes , please . i will need tickets for 7 people , please .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "train-day",
+        "train-destination"
+      ]
+    },
+    "predicted": {
+      "hotel-pricerange": "moderate",
+      "hotel-parking": "free",
+      "hotel-type": "guest house",
+      "hotel-area": "centre",
+      "hotel-book stay": "5",
+      "hotel-book day": "tuesday",
+      "hotel-book people": "7",
+      "hotel-name": "limehouse",
+      "train-departure": "cambridge",
+      "train-arriveby": "10:15",
+      "train-book people": "7"
+    },
+    "turn_label_m21": {
+      "train-book people": "7"
+    },
+    "turn_label_m24": {
+      "train-book people": "7"
+    },
+    "predict_turn_label": {
+      "train-book people": "7"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL2452.json-2",
+    "system": "i am sorry , i do not have a moderate -ly priced vietnamese restaurant . will anything else do ?",
+    "user": "what other cuisines are available for a moderate price range in the centre of town ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-area": "centre",
+      "restaurant-pricerange": "moderate",
+      "restaurant-food": "dontcare"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {
+      "restaurant-food": "dontcare"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL0370.json-6",
+    "system": "unfortunately the restaurant is full at that time . would you like to try another time or day ?",
+    "user": "how about 9:30 ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "train-leaveat": "21:30",
+      "train-departure": "cambridge",
+      "train-destination": "peterborough",
+      "train-day": "tuesday",
+      "train-book people": "7",
+      "restaurant-pricerange": "expensive",
+      "restaurant-area": "south",
+      "restaurant-food": "indian",
+      "restaurant-book day": "tuesday",
+      "restaurant-book people": "7",
+      "restaurant-book time": "9:30"
+    },
+    "turn_label_m21": {
+      "restaurant-book time": "09:30"
+    },
+    "turn_label_m24": {
+      "restaurant-book time": "09:30"
+    },
+    "predict_turn_label": {
+      "restaurant-book time": "9:30"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "SNG01634.json-1",
+    "system": "sure ! what is your departure site ?",
+    "user": "i will depart from saffron brasserie at 7:15 . what is the car type and contact number so i know who and where you will pick me up ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "taxi-destination": "ruskin gallery",
+      "taxi-leaveat": "7:15",
+      "taxi-departure": "saffron brasserie"
+    },
+    "turn_label_m21": {
+      "taxi-leaveat": "07:15",
+      "taxi-departure": "saffron brasserie"
+    },
+    "turn_label_m24": {
+      "taxi-leaveat": "07:15",
+      "taxi-departure": "saffron brasserie"
+    },
+    "predict_turn_label": {
+      "taxi-leaveat": "7:15",
+      "taxi-departure": "saffron brasserie"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL0864.json-4",
+    "system": "i have several place -s are you preferring pasta or pizza ?",
+    "user": "i would like pizza please .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-food": "pizza",
+      "restaurant-pricerange": "cheap",
+      "restaurant-area": "centre"
+    },
+    "turn_label_m21": {
+      "restaurant-book day": "sunday",
+      "restaurant-book people": "5",
+      "restaurant-book time": "12:15"
+    },
+    "turn_label_m24": {},
+    "predict_turn_label": {
+      "restaurant-food": "pizza"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL0864.json-5",
+    "system": "pizza hut city centre should be a great choice . they'll hold a table for you for 15 minutes . your reference number is t66zy8am .",
+    "user": "thank you ! can you help me find a train for monday ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-food": "pizza",
+      "restaurant-pricerange": "cheap",
+      "restaurant-area": "centre",
+      "restaurant-name": "pizza hut city centre",
+      "train-day": "monday"
+    },
+    "turn_label_m21": {
+      "restaurant-name": "pizza hut city centre",
+      "train-day": "monday"
+    },
+    "turn_label_m24": {
+      "train-day": "monday"
+    },
+    "predict_turn_label": {
+      "restaurant-name": "pizza hut city centre",
+      "train-day": "monday"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "SNG0830.json-3",
+    "system": "how about the acorn guest house ?",
+    "user": "that sounds great ! i need a reservation just for me for 5 nights starting on thursday .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-book stay": "5",
+      "wifi": "free",
+      "hotel-parking": "yes",
+      "hotel-type": "guest house",
+      "hotel-area": "dontcare",
+      "hotel-book day": "thursday",
+      "hotel-name": "acorn guest house"
+    },
+    "turn_label_m21": {
+      "hotel-book day": "thursday",
+      "hotel-book people": "1",
+      "hotel-book stay": "5",
+      "hotel-name": "acorn guest house"
+    },
+    "turn_label_m24": {
+      "hotel-book day": "thursday",
+      "hotel-book people": "1",
+      "hotel-book stay": "5",
+      "hotel-name": "acorn guest house"
+    },
+    "predict_turn_label": {
+      "hotel-book day": "thursday",
+      "hotel-book stay": "5",
+      "hotel-name": "acorn guest house"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL2917.json-6",
+    "system": "there are none would you like to try a different area ?",
+    "user": "how about an entertainment place in the east ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-destination": "cambridge",
+      "hotel-area": "west",
+      "hotel-pricerange": "expensive",
+      "hotel-name": "huntingdon marriott hotel",
+      "hotel-book people": "5",
+      "hotel-book day": "saturday",
+      "hotel-book stay": "4",
+      "attraction-type": "concert hall",
+      "attraction-area": "east"
+    },
+    "turn_label_m21": {
+      "attraction-type": "entertainment"
+    },
+    "turn_label_m24": {
+      "attraction-type": "entertainment"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL1273.json-3",
+    "system": "the entrance fee is free .",
+    "user": "sounds great ! i am also looking for a train to birmingham new street . are there any that leave after noon on saturday ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-type": "museum",
+      "attraction-area": "east",
+      "attraction-name": "cambridge artworks",
+      "train-leaveat": "noon",
+      "train-day": "saturday",
+      "train-destination": "birmingham new street"
+    },
+    "turn_label_m21": {
+      "train-leaveat": "12:00",
+      "train-destination": "birmingham new street",
+      "train-day": "saturday"
+    },
+    "turn_label_m24": {
+      "train-leaveat": "12:00",
+      "train-destination": "birmingham new street",
+      "train-day": "saturday"
+    },
+    "predict_turn_label": {
+      "train-leaveat": "noon",
+      "train-day": "saturday",
+      "train-destination": "birmingham new street"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL3600.json-0",
+    "system": "",
+    "user": "can you help me find a park on the east side please ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-area": "east"
+    },
+    "turn_label_m21": {
+      "attraction-type": "park",
+      "attraction-area": "east"
+    },
+    "turn_label_m24": {
+      "attraction-type": "park",
+      "attraction-area": "east"
+    },
+    "predict_turn_label": {
+      "attraction-area": "east"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "SNG01380.json-1",
+    "system": "restaurant alimentum offers modern european found south has moderate price range 01223413000 cb28pb 152154 hills road",
+    "user": "thanks a lot . that s all the information i am looking for . goodbye .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "restaurant-food",
+        "restaurant-area"
+      ]
+    },
+    "predicted": {
+      "restaurant-name": "restaurant alimentum"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL1627.json-1",
+    "system": "there are a total of 9 different indian restaurant -s in the centre of town . is there a particular price you are looking for ?",
+    "user": "no particular price range , but i do need a restaurant that is available to book 7 people on friday at 19:15 . i also need a reference number .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-area": "centre",
+      "restaurant-food": "indian",
+      "restaurant-book time": "19:15",
+      "restaurant-book people": "7",
+      "restaurant-book day": "friday"
+    },
+    "turn_label_m21": {
+      "restaurant-book day": "friday",
+      "restaurant-book people": "7",
+      "restaurant-book time": "19:15",
+      "restaurant-pricerange": "dontcare"
+    },
+    "turn_label_m24": {
+      "restaurant-book day": "friday",
+      "restaurant-book people": "7",
+      "restaurant-book time": "19:15",
+      "restaurant-pricerange": "dontcare"
+    },
+    "predict_turn_label": {
+      "restaurant-book time": "19:15",
+      "restaurant-book people": "7",
+      "restaurant-book day": "friday"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL0410.json-3",
+    "system": "yes it is . would you like me to send you their address ?",
+    "user": "can you book me a table for 1 on friday at 13:45 ? i will need the reference number as well .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "restaurant-name"
+      ]
+    },
+    "predicted": {
+      "restaurant-pricerange": "expensive",
+      "restaurant-food": "chinese",
+      "restaurant-name": "good luck chinese food takeaway",
+      "restaurant-book day": "friday",
+      "restaurant-book people": "1",
+      "restaurant-book time": "13:45"
+    },
+    "turn_label_m21": {
+      "restaurant-book day": "friday",
+      "restaurant-book people": "1",
+      "restaurant-book time": "13:45"
+    },
+    "turn_label_m24": {
+      "restaurant-book day": "friday",
+      "restaurant-book people": "1",
+      "restaurant-book time": "13:45"
+    },
+    "predict_turn_label": {
+      "restaurant-book day": "friday",
+      "restaurant-book people": "1",
+      "restaurant-book time": "13:45"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL0410.json-6",
+    "system": "there is 1 expensive hotel on the east side . it is the express by holiday inn cambridge . would you like me to book that for you ?",
+    "user": "yes , i would like to book that for 1 person . it will need to be on friday and i'll stay for 3 nights .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-pricerange": "expensive",
+      "restaurant-food": "chinese",
+      "restaurant-name": "good luck chinese food takeaway",
+      "restaurant-book day": "friday",
+      "restaurant-book people": "1",
+      "restaurant-book time": "13:45",
+      "hotel-area": "east",
+      "hotel-pricerange": "expensive",
+      "hotel-book day": "friday",
+      "hotel-book stay": "3",
+      "hotel-book people": "1"
+    },
+    "turn_label_m21": {
+      "hotel-book day": "friday",
+      "hotel-book people": "1",
+      "hotel-book stay": "3",
+      "hotel-name": "express by holiday inn cambridge"
+    },
+    "turn_label_m24": {
+      "hotel-book day": "friday",
+      "hotel-book people": "1",
+      "hotel-book stay": "3",
+      "hotel-name": "express by holiday inn cambridge"
+    },
+    "predict_turn_label": {
+      "hotel-book day": "friday",
+      "hotel-book stay": "3",
+      "hotel-book people": "1"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL0815.json-0",
+    "system": "",
+    "user": "i need a place to dine , and i would like to know what s available so far as cheap asian oriental food .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-food": "cheap asian oriental"
+    },
+    "turn_label_m21": {
+      "restaurant-food": "asian oriental",
+      "restaurant-pricerange": "cheap"
+    },
+    "turn_label_m24": {
+      "restaurant-food": "asian oriental",
+      "restaurant-pricerange": "cheap"
+    },
+    "predict_turn_label": {
+      "restaurant-food": "cheap asian oriental"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL0815.json-4",
+    "system": "great , the tr1992 leaves at 21:35 . would that work for you ?",
+    "user": "yes , please book 5 seats for me .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "train-day"
+      ]
+    },
+    "predicted": {
+      "restaurant-food": "cheap asian oriental",
+      "restaurant-name": "dojo noodle bar",
+      "train-departure": "ely",
+      "train-leaveat": "20:45",
+      "train-destination": "cambridge",
+      "train-book people": "5"
+    },
+    "turn_label_m21": {
+      "train-book people": "5"
+    },
+    "turn_label_m24": {
+      "train-book people": "5"
+    },
+    "predict_turn_label": {
+      "train-book people": "5"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL3085.json-5",
+    "system": "the tr6856 departs at 15:40 and arrives at 18:23 . would you like me to book that ?",
+    "user": "yes , that would be helpful if you could book it ! can you make a booking for 7 people please ? i'll need the reference number also .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "train-destination"
+      ]
+    },
+    "predicted": {
+      "attraction-name": "king s college",
+      "train-departure": "birmingham new street",
+      "train-day": "sunday",
+      "train-leaveat": "15:30",
+      "train-book people": "7"
+    },
+    "turn_label_m21": {
+      "train-book people": "7"
+    },
+    "turn_label_m24": {
+      "train-book people": "7"
+    },
+    "predict_turn_label": {
+      "train-book people": "7"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL1256.json-3",
+    "system": "it s a really fun house with lots of interesting things to do in it .",
+    "user": "interesting . is it a museum ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-type": "entertainment",
+      "attraction-area": "centre"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {
+      "attraction-type": "museum"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL1256.json-4",
+    "system": "actually , for reasons that are not clear to me , there are no entertainment attractions in the centre of cambridge in our listings .",
+    "user": "okay . how about a museum instead ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-type": "museum",
+      "attraction-area": "centre"
+    },
+    "turn_label_m21": {
+      "attraction-type": "museum"
+    },
+    "turn_label_m24": {},
+    "predict_turn_label": {
+      "attraction-type": "museum"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL2311.json-1",
+    "system": "sure , are you looking for anything specific ?",
+    "user": "i am looking for something expensive and in the southern part of town .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-food": "nice",
+      "restaurant-area": "southern",
+      "restaurant-pricerange": "expensive"
+    },
+    "turn_label_m21": {
+      "restaurant-pricerange": "expensive",
+      "restaurant-area": "south"
+    },
+    "turn_label_m24": {
+      "restaurant-area": "south"
+    },
+    "predict_turn_label": {
+      "restaurant-area": "southern",
+      "restaurant-pricerange": "expensive"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL0677.json-5",
+    "system": "i have 17 hotel -s that fit those criteria , is there a particular area or type of accommodation you would prefer ?",
+    "user": "what have you got with 0 stars ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "train-destination": "cambridge",
+      "train-arriveby": "18:30",
+      "train-departure": "london kings cross",
+      "train-day": "sunday",
+      "hotel-internet": "yes",
+      "hotel-pricerange": "moderate",
+      "hotel-stars": "0"
+    },
+    "turn_label_m21": {
+      "hotel-stars": "0"
+    },
+    "turn_label_m24": {
+      "hotel-stars": "0"
+    },
+    "predict_turn_label": {
+      "hotel-stars": "0"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL0677.json-6",
+    "system": "yes i have 1 called cityroomz . would you like me to book it for you ?",
+    "user": "yes , for 1 person . i would like it for 4 nights starting sunday . please provide a reference number .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-stars"
+      ]
+    },
+    "predicted": {
+      "train-destination": "cambridge",
+      "train-arriveby": "18:30",
+      "train-departure": "london kings cross",
+      "train-day": "sunday",
+      "hotel-internet": "yes",
+      "hotel-pricerange": "moderate",
+      "hotel-stars": "0",
+      "hotel-book people": "1",
+      "hotel-book stay": "4",
+      "hotel-book day": "sunday",
+      "hotel-name": "cityroomz"
+    },
+    "turn_label_m21": {
+      "hotel-book day": "sunday",
+      "hotel-book people": "1",
+      "hotel-book stay": "4"
+    },
+    "turn_label_m24": {
+      "hotel-book day": "sunday",
+      "hotel-book people": "1",
+      "hotel-book stay": "4",
+      "hotel-name": "cityroomz"
+    },
+    "predict_turn_label": {
+      "hotel-book people": "1",
+      "hotel-book stay": "4",
+      "hotel-book day": "sunday",
+      "hotel-name": "cityroomz"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "SNG01673.json-0",
+    "system": "",
+    "user": "i need a taxi to arrive by 16:45 to take me to the parkside police station .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "taxi-destination": "parkside police"
+    },
+    "turn_label_m21": {
+      "taxi-leaveat": "16:45",
+      "taxi-destination": "parkside police station"
+    },
+    "turn_label_m24": {
+      "taxi-leaveat": "16:45",
+      "taxi-destination": "parkside police station"
+    },
+    "predict_turn_label": {
+      "taxi-destination": "parkside police"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL0109.json-7",
+    "system": "ok great , is there anything else i can do for you ?",
+    "user": "is the parking free ? ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-parking"
+      ]
+    },
+    "predicted": {
+      "restaurant-name": "restaurant 17",
+      "restaurant-book day": "friday",
+      "restaurant-book time": "12:15",
+      "restaurant-book people": "6",
+      "hotel-area": "centre",
+      "hotel-pricerange": "cheap"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL1554.json-2",
+    "system": "royal standard is a great gastropub place .",
+    "user": "excellent . let s go with that .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-pricerange": "expensive",
+      "restaurant-area": "east"
+    },
+    "turn_label_m21": {
+      "restaurant-food": "gastropub",
+      "restaurant-name": "royal standard"
+    },
+    "turn_label_m24": {
+      "restaurant-name": "royal standard"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL0814.json-6",
+    "system": "broughton house gallery is free . their phone number is 01223314960 .",
+    "user": "great , thank you ! that s all i'll need for today .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "attraction-name"
+      ]
+    },
+    "predicted": {
+      "restaurant-food": "italian",
+      "restaurant-pricerange": "cheap",
+      "restaurant-area": "centre",
+      "restaurant-name": "zizzi cambridge",
+      "restaurant-book day": "tuesday",
+      "restaurant-book time": "11:15",
+      "attraction-area": "centre",
+      "attraction-type": "museum"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL3662.json-2",
+    "system": "sure , the postcode is cb42xh .",
+    "user": "thanks . can you tell me a little bit about a restaurant called the good luck chinese food takeaway ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-name": "kings hedges learner pool",
+      "restaurant-name": "good luck chinese food takeaway"
+    },
+    "turn_label_m21": {
+      "restaurant-name": "good luck"
+    },
+    "turn_label_m24": {
+      "restaurant-name": "good luck"
+    },
+    "predict_turn_label": {
+      "restaurant-name": "good luck chinese food takeaway"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL4636.json-0",
+    "system": "",
+    "user": "i am trying to find a 4 star hotel that s moderate -ly priced please",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-pricerange": "moderate",
+      "hotel-stars": "4"
+    },
+    "turn_label_m21": {
+      "hotel-pricerange": "moderate",
+      "hotel-stars": "4",
+      "hotel-type": "hotel"
+    },
+    "turn_label_m24": {
+      "hotel-pricerange": "moderate",
+      "hotel-stars": "4",
+      "hotel-type": "hotel"
+    },
+    "predict_turn_label": {
+      "hotel-pricerange": "moderate",
+      "hotel-stars": "4"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL4636.json-3",
+    "system": "we do have guesthouses available . is that okay ?",
+    "user": "yes if you can find a place for 5 people",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-pricerange": "moderate",
+      "hotel-stars": "4",
+      "hotel-internet": "yes",
+      "hotel-type": "hotel",
+      "hotel-book people": "5"
+    },
+    "turn_label_m21": {
+      "hotel-book people": "5",
+      "hotel-type": "guest house"
+    },
+    "turn_label_m24": {
+      "hotel-book people": "5",
+      "hotel-type": "guest house"
+    },
+    "predict_turn_label": {
+      "hotel-book people": "5"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL4636.json-4",
+    "system": "i can help ! for how many days starting when ?",
+    "user": "2 nights , starting on wednesday please",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-type"
+      ]
+    },
+    "predicted": {
+      "hotel-pricerange": "moderate",
+      "hotel-stars": "4",
+      "hotel-internet": "yes",
+      "hotel-type": "hotel",
+      "hotel-book people": "5",
+      "hotel-book day": "wednesday",
+      "hotel-book stay": "2"
+    },
+    "turn_label_m21": {
+      "hotel-book day": "wednesday",
+      "hotel-book stay": "2"
+    },
+    "turn_label_m24": {
+      "hotel-book day": "wednesday",
+      "hotel-book stay": "2"
+    },
+    "predict_turn_label": {
+      "hotel-book day": "wednesday",
+      "hotel-book stay": "2"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL0389.json-2",
+    "system": "that narrows it down to 23 choices . what time were you wishing to arrive ?",
+    "user": "arrival time does not matter , it just needs to depart after 12:45 . i'll need to book the travel for 8 people . are there any that can accommodate that many ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "train-leaveat": "12:45",
+      "train-destination": "cambridge",
+      "train-departure": "peterborough",
+      "train-day": "tuesday",
+      "train-book people": "8"
+    },
+    "turn_label_m21": {
+      "train-book people": "8",
+      "train-arriveby": "dontcare"
+    },
+    "turn_label_m24": {
+      "train-book people": "8",
+      "train-arriveby": "dontcare"
+    },
+    "predict_turn_label": {
+      "train-book people": "8"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL0389.json-5",
+    "system": "how about eraina ? i can book you a table there if you like .",
+    "user": "that sounds good , can you book it for 8 people on tuesday at 21:00 ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "train-leaveat": "12:45",
+      "train-destination": "cambridge",
+      "train-departure": "peterborough",
+      "train-day": "tuesday",
+      "train-book people": "8",
+      "restaurant-pricerange": "expensive",
+      "restaurant-food": "european",
+      "restaurant-area": "edinburgh centre",
+      "restaurant-book time": "21:00",
+      "restaurant-name": "eraina"
+    },
+    "turn_label_m21": {
+      "restaurant-book day": "tuesday",
+      "restaurant-book people": "8"
+    },
+    "turn_label_m24": {
+      "restaurant-book day": "tuesday",
+      "restaurant-book people": "8",
+      "restaurant-name": "eraina"
+    },
+    "predict_turn_label": {
+      "restaurant-name": "eraina"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL1036.json-7",
+    "system": "sure , christ s college is free admission and their phone number is 01223334900 .",
+    "user": "thank you . i also need the postcode please .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "train-day": "friday",
+      "train-destination": "stevenage",
+      "train-departure": "cambridge",
+      "train-leaveat": "18:30",
+      "train-book people": "5",
+      "attraction-type": "college",
+      "attraction-area": "centre"
+    },
+    "turn_label_m21": {
+      "attraction-name": "christ college"
+    },
+    "turn_label_m24": {
+      "attraction-name": "christ college"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "SNG01165.json-3",
+    "system": "pizza hut fen ditton is the only italian restaurant , in the east , in the moderate price range . do you want me to try other area -s ?",
+    "user": "no , that will do . can i book a table for monday ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-pricerange": "moderate",
+      "restaurant-area": "east",
+      "restaurant-food": "italian",
+      "restaurant-book day": "monday",
+      "restaurant-name": "pizza hut"
+    },
+    "turn_label_m21": {
+      "restaurant-book day": "monday",
+      "restaurant-name": "pizza hut fenditton"
+    },
+    "turn_label_m24": {
+      "restaurant-book day": "monday",
+      "restaurant-name": "pizza hut fenditton"
+    },
+    "predict_turn_label": {
+      "restaurant-book day": "monday",
+      "restaurant-name": "pizza hut"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL1059.json-2",
+    "system": "the mumford theatre is in town centre , located at anglia ruskin enterprise , east road . would you like their phone number ?",
+    "user": "yes i would like their phone number .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-area": "centre",
+      "attraction-type": "theatre"
+    },
+    "turn_label_m21": {
+      "attraction-name": "mumford theatre"
+    },
+    "turn_label_m24": {
+      "attraction-name": "mumford theatre"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL1059.json-3",
+    "system": "okay , their phone number is 08451962320 .",
+    "user": "i am also looking for the carolina bed and breakfast . what area is it in ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-area"
+      ]
+    },
+    "predicted": {
+      "attraction-area": "centre",
+      "attraction-type": "theatre",
+      "hotel-name": "carolina bed and breakfast"
+    },
+    "turn_label_m21": {
+      "hotel-name": "carolina bed and breakfast"
+    },
+    "turn_label_m24": {
+      "hotel-name": "carolina bed and breakfast"
+    },
+    "predict_turn_label": {
+      "hotel-name": "carolina bed and breakfast"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "SNG0456.json-2",
+    "system": "there is the curry garden which serves indian food in the centre . would you like to make a booking ?",
+    "user": "oh , no , but i do need the postcode address and number .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-food": "indian",
+      "restaurant-area": "centre"
+    },
+    "turn_label_m21": {
+      "restaurant-name": "curry garden"
+    },
+    "turn_label_m24": {
+      "restaurant-name": "curry garden"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL2330.json-1",
+    "system": "there are none available , do you have another attraction ?",
+    "user": "okay . can you search for some entertainment in the south part of town ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-type": "multiple sports",
+      "attraction-area": "south"
+    },
+    "turn_label_m21": {
+      "attraction-type": "entertainment"
+    },
+    "turn_label_m24": {
+      "attraction-type": "entertainment"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL2330.json-4",
+    "system": "what area would you like ?",
+    "user": "the area does not matter .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "restaurant-food"
+      ]
+    },
+    "predicted": {
+      "attraction-type": "multiple sports",
+      "attraction-area": "south",
+      "attraction-name": "nusha",
+      "restaurant-pricerange": "expensive",
+      "restaurant-area": "dontcare"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {
+      "restaurant-area": "dontcare"
+    },
+    "predict_turn_label": {
+      "restaurant-area": "dontcare"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL1981.json-3",
+    "system": "sure , tr5225 is a 79 minute trip and each seat costs 14.08 pounds . can i help you with anything else today ?",
+    "user": "is there an all saint s church ? i would like to visit it as well .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": [
+          "attraction-name"
+        ]
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "train-departure": "norwich",
+      "train-destination": "cambridge",
+      "train-day": "sunday",
+      "train-leaveat": "12:15",
+      "attraction-name": "all saint s church"
+    },
+    "turn_label_m21": {
+      "attraction-name": "all saints church"
+    },
+    "turn_label_m24": {
+      "attraction-name": "all saints church"
+    },
+    "predict_turn_label": {
+      "attraction-name": "all saint s church"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL1981.json-4",
+    "system": "yes , all saints church is located t city cenre . it has free entrance .",
+    "user": "that sounds wonderful . could i get the phone number along with the attraction type ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "attraction-area",
+        "attraction-name"
+      ]
+    },
+    "predicted": {
+      "train-departure": "norwich",
+      "train-destination": "cambridge",
+      "train-day": "sunday",
+      "train-leaveat": "12:15",
+      "attraction-name": "all saint s church"
+    },
+    "turn_label_m21": {
+      "attraction-area": "centre"
+    },
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 0,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL0116.json-2",
+    "system": "i can recommend restaurant 17 . would you like to book a table with them ?",
+    "user": "sure . i will be booking 3 people at 17:45 on wednesday . could i also get the reference number , please ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-area": "centre",
+      "restaurant-food": "british",
+      "restaurant-pricerange": "moderate",
+      "restaurant-book day": "wednesday",
+      "restaurant-book people": "3",
+      "restaurant-book time": "17:45"
+    },
+    "turn_label_m21": {
+      "restaurant-book day": "wednesday",
+      "restaurant-book people": "3",
+      "restaurant-book time": "17:45",
+      "restaurant-name": "restaurant 17"
+    },
+    "turn_label_m24": {
+      "restaurant-book day": "wednesday",
+      "restaurant-book people": "3",
+      "restaurant-book time": "17:45",
+      "restaurant-name": "restaurant 17"
+    },
+    "predict_turn_label": {
+      "restaurant-book day": "wednesday",
+      "restaurant-book people": "3",
+      "restaurant-book time": "17:45"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "SNG1016.json-0",
+    "system": "",
+    "user": "do you have information about the hotel el shaddai ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-name": "el shaddai"
+    },
+    "turn_label_m21": {
+      "hotel-name": "el shaddia guesthouse"
+    },
+    "turn_label_m24": {
+      "hotel-name": "el shaddia guest house"
+    },
+    "predict_turn_label": {
+      "hotel-name": "el shaddai"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL1657.json-0",
+    "system": "",
+    "user": "i need to catch a train out of cambridge after 15:45 .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": [
+          "train-leaveat"
+        ]
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "train-leaveat": "15:45",
+      "train-departure": "cambridge"
+    },
+    "turn_label_m21": {
+      "train-leaveat": "15:45",
+      "train-departure": "cambridge"
+    },
+    "turn_label_m24": {
+      "train-leaveat": "15:45",
+      "train-departure": "cambridge"
+    },
+    "predict_turn_label": {
+      "train-leaveat": "15:45",
+      "train-departure": "cambridge"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL1657.json-4",
+    "system": "certainly ! the autumn house hotel is located on the east side at 710 newmarket road .",
+    "user": "great , thanks ! i think that s all i need today . goodbye .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-area"
+      ]
+    },
+    "predicted": {
+      "train-leaveat": "15:45",
+      "train-departure": "cambridge",
+      "train-destination": "stevenage",
+      "train-day": "monday",
+      "hotel-name": "autumn house"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL3044.json-3",
+    "system": "we have several such choices in the north , south and east . if you have no preference for location shall i just book 1 for you ?",
+    "user": "that would be great .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-area"
+      ]
+    },
+    "predicted": {
+      "hotel-pricerange": "moderate",
+      "hotel-stars": "4",
+      "hotel-book people": "7",
+      "hotel-book day": "monday",
+      "hotel-book stay": "2",
+      "hotel-parking": "yes"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL0890.json-5",
+    "system": "i have found 4 museums . 3 of them are free and 1 costs 5 pounds . can i get you more information on any of them ?",
+    "user": "i need information on all of them please .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "attraction-area"
+      ]
+    },
+    "predicted": {
+      "restaurant-food": "indian",
+      "restaurant-area": "east",
+      "restaurant-pricerange": "expensive",
+      "attraction-type": "museum"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL0890.json-7",
+    "system": "i can give you the address for only 1 , is there 1 in particular you wish to learn more about ?",
+    "user": "give me information on the 1 closest to pipasha restaurant .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-food": "indian",
+      "restaurant-area": "east",
+      "restaurant-pricerange": "expensive",
+      "attraction-type": "museum",
+      "restaurant-name": "pipasha restaurant"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {
+      "restaurant-name": "pipasha restaurant"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL0890.json-8",
+    "system": "they are all in the same general area , but cambridge artworks is nice . it is located at 5 greens road , cb13ef . you can call them at 01223902168 .",
+    "user": "cool ! is that 1 of the free ones ? gotta save my money for the grub , you know .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": [
+          "attraction-name"
+        ]
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-food": "indian",
+      "restaurant-area": "east",
+      "restaurant-pricerange": "expensive",
+      "attraction-type": "museum",
+      "restaurant-name": "pipasha restaurant",
+      "attraction-name": "cambridge artworks"
+    },
+    "turn_label_m21": {
+      "attraction-name": "cambridge artworks"
+    },
+    "turn_label_m24": {
+      "attraction-name": "cambridge artworks"
+    },
+    "predict_turn_label": {
+      "attraction-name": "cambridge artworks"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL4186.json-1",
+    "system": "i am . it is a great portuguese place . they have 2 location -s in town . 1 in the south and on in the city centre .",
+    "user": "are you sure that they have 2 location -s ? can you tell me their addresses ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "restaurant-area"
+      ]
+    },
+    "predicted": {
+      "restaurant-name": "nandos"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL4186.json-2",
+    "system": "nandos in the south is at cambridge leisure park clifton way . nandos city centre is at 3334 saint andrews street . do you need additional information ?",
+    "user": "yes , i am also looking for a hotel the cambridge belfry ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-name": "nandos",
+      "hotel-name": "cambridge belfry",
+      "hotel-type": "hotel"
+    },
+    "turn_label_m21": {
+      "hotel-name": "cambridge belfry"
+    },
+    "turn_label_m24": {
+      "hotel-name": "cambridge belfry"
+    },
+    "predict_turn_label": {
+      "hotel-name": "cambridge belfry",
+      "hotel-type": "hotel"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL4186.json-3",
+    "system": "the cambridge belfry 4 star hotel is a hotel in the west part of town in the cheap price range . would you like any more information ?",
+    "user": "yes their postcode and whether they have free parking or not .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-name": "nandos",
+      "hotel-name": "cambridge belfry",
+      "hotel-type": "hotel"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {
+      "hotel-parking": "yes"
+    },
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL4186.json-4",
+    "system": "the postcode for the nandos is cb17dy",
+    "user": "you did not answer my question . i need the postcode for the cambridge belfry and i need to know if they have free parking or not .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-parking"
+      ]
+    },
+    "predicted": {
+      "restaurant-name": "nandos",
+      "hotel-name": "cambridge belfry",
+      "hotel-type": "hotel"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL3171.json-0",
+    "system": "",
+    "user": "i am looking for a hotel to stay in that s expensive and on the east side .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "hotel-pricerange": "expensive",
+      "hotel-area": "east"
+    },
+    "turn_label_m21": {
+      "hotel-area": "east",
+      "hotel-pricerange": "expensive",
+      "hotel-type": "hotel"
+    },
+    "turn_label_m24": {
+      "hotel-area": "east",
+      "hotel-pricerange": "expensive",
+      "hotel-type": "hotel"
+    },
+    "predict_turn_label": {
+      "hotel-pricerange": "expensive",
+      "hotel-area": "east"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "SNG1036.json-4",
+    "system": "yes , there is free internet provided . would you like me to book a room ?",
+    "user": "sure you can book that for me , thank you !",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-name",
+        "hotel-area",
+        "hotel-stars",
+        "hotel-internet"
+      ]
+    },
+    "predicted": {
+      "hotel-pricerange": "cheap",
+      "hotel-type": "hotel",
+      "hotel-parking": "yes",
+      "hotel-stars": "4"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {},
+    "predict_turn_label": {},
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "PMUL4716.json-7",
+    "system": "there are many churches in this area .",
+    "user": "before i forget , i need the reference number for the train booking . also , i am looking for attractions in the south part of town , maybe something outdoors , if possible .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "attraction-type"
+      ]
+    },
+    "predicted": {
+      "train-destination": "kings lynn",
+      "train-day": "tuesday",
+      "train-leaveat": "19:45",
+      "train-book people": "2",
+      "attraction-area": "south"
+    },
+    "turn_label_m21": {
+      "attraction-type": "outdoor",
+      "attraction-area": "south"
+    },
+    "turn_label_m24": {
+      "attraction-area": "south"
+    },
+    "predict_turn_label": {
+      "attraction-area": "south"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 0
+  },
+  {
+    "flag": "PMUL0919.json-7",
+    "system": "on what day do you need to travel ?",
+    "user": "i need to the train on friday and i need to arrive by 8:00 .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-food": "indian",
+      "restaurant-pricerange": "expensive",
+      "restaurant-book time": "13:15",
+      "restaurant-book day": "friday",
+      "restaurant-book people": "6",
+      "train-departure": "stansted airport",
+      "train-destination": "cambridge",
+      "train-arriveby": "8:00",
+      "train-day": "friday"
+    },
+    "turn_label_m21": {
+      "train-day": "friday",
+      "train-arriveby": "08:00"
+    },
+    "turn_label_m24": {
+      "train-day": "friday",
+      "train-arriveby": "08:00"
+    },
+    "predict_turn_label": {
+      "train-arriveby": "8:00",
+      "train-day": "friday"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL1466.json-4",
+    "system": "there are more than 70 trains to bishops stratford , could you tell me what day you would like to leave , where you would like to leave from , and the times .",
+    "user": "i am leaving cambridge on sunday , can you please tell me the travel time on that ride ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "restaurant-name": "kymmoy",
+      "train-destination": "bishops stortford",
+      "train-day": "sunday"
+    },
+    "turn_label_m21": {
+      "train-day": "sunday",
+      "train-departure": "cambridge"
+    },
+    "turn_label_m24": {
+      "train-day": "sunday",
+      "train-departure": "cambridge"
+    },
+    "predict_turn_label": {
+      "train-day": "sunday"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL1088.json-1",
+    "system": "yes , there are 5 place -s located in the centre . i recommend the all saints church on jesus lane .",
+    "user": "thanks ! what s the entrance fee ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-type": "architecture",
+      "attraction-area": "centre",
+      "attraction-name": "all saints church on jesus lane"
+    },
+    "turn_label_m21": {},
+    "turn_label_m24": {
+      "attraction-name": "all saints church"
+    },
+    "predict_turn_label": {
+      "attraction-name": "all saints church on jesus lane"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 0
+  },
+  {
+    "flag": "MUL1088.json-3",
+    "system": "it seems like all of my guesthouses are in different price range -s . no expensive ones are listed . can i interest you in a different price range ?",
+    "user": "well then i need a hotel that has free parking and a 4 star rating .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-type": "architecture",
+      "attraction-area": "centre",
+      "attraction-name": "all saints church on jesus lane",
+      "hotel-pricerange": "expensive",
+      "hotel-stars": "4",
+      "hotel-parking": "yes"
+    },
+    "turn_label_m21": {
+      "hotel-parking": "yes",
+      "hotel-stars": "4",
+      "hotel-type": "hotel"
+    },
+    "turn_label_m24": {
+      "hotel-parking": "yes",
+      "hotel-stars": "4",
+      "hotel-type": "hotel"
+    },
+    "predict_turn_label": {
+      "hotel-stars": "4",
+      "hotel-parking": "yes"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL1088.json-7",
+    "system": "would you like me to book it for you ?",
+    "user": "yes , book it for 5 people for 4 nights starting thursday .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "hotel-type"
+      ]
+    },
+    "predicted": {
+      "attraction-type": "architecture",
+      "attraction-area": "centre",
+      "attraction-name": "all saints church on jesus lane",
+      "hotel-pricerange": "moderate",
+      "hotel-stars": "4",
+      "hotel-parking": "yes",
+      "hotel-book day": "thursday",
+      "hotel-book people": "5",
+      "hotel-book stay": "4"
+    },
+    "turn_label_m21": {
+      "hotel-book day": "thursday",
+      "hotel-book people": "5",
+      "hotel-book stay": "4"
+    },
+    "turn_label_m24": {
+      "hotel-book day": "thursday",
+      "hotel-book people": "5",
+      "hotel-book stay": "4"
+    },
+    "predict_turn_label": {
+      "hotel-book day": "thursday",
+      "hotel-book people": "5",
+      "hotel-book stay": "4"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL1055.json-0",
+    "system": "",
+    "user": "i am looking for a place to go while in cambridge . i would like something to do with boats ? do you have that ?",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": []
+    },
+    "predicted": {
+      "attraction-type": "boats"
+    },
+    "turn_label_m21": {
+      "attraction-type": "boat"
+    },
+    "turn_label_m24": {
+      "attraction-type": "boat"
+    },
+    "predict_turn_label": {
+      "attraction-type": "boats"
+    },
+    "judgement_m21": 0,
+    "judgement_m24": 0,
+    "judgement_gpt": 1,
+    "manual_eval": 1
+  },
+  {
+    "flag": "MUL1055.json-8",
+    "system": "what time do you need the taxi ?",
+    "user": "i want to leave the hotel by 11:15 .",
+    "gpt_out": {
+      "incorrect_ds": {
+        "incorrect": []
+      },
+      "missed_ds": [
+        "taxi-departure"
+      ]
+    },
+    "predicted": {
+      "attraction-type": "boats",
+      "hotel-pricerange": "expensive",
+      "hotel-stars": "4",
+      "hotel-type": "cheap guest house",
+      "hotel-book people": "7",
+      "hotel-book stay": "1",
+      "hotel-book day": "monday",
+      "taxi-destination": "cambridge punter",
+      "taxi-leaveat": "11:15"
+    },
+    "turn_label_m21": {
+      "taxi-leaveat": "11:15"
+    },
+    "turn_label_m24": {
+      "taxi-leaveat": "11:15"
+    },
+    "predict_turn_label": {
+      "taxi-leaveat": "11:15"
+    },
+    "judgement_m21": 1,
+    "judgement_m24": 1,
+    "judgement_gpt": 0,
+    "manual_eval": 1
+  }
+]

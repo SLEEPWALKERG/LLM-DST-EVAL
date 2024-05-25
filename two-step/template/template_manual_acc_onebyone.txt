@@ -1,0 +1,22 @@
+# Dialogue History:
+{history}
+
+# Current Turn:
+{{
+"Agent": {system},
+"User": {user},
+"State of this turn": {turn_label}
+}}
+
+# Instruction:
+Your task is to evaluate all the domain-slot, value pairs in "State of this turn". The turn state is used to represent the user's requirements and confirmation. Note that domain information is just generic information. Constraints are determined by the slot, not the domain. Capitalization and the completeness is not a consideration
+
+For each domain-slot, value pair, you should carefully assess whether the domain-slot, value pair is correct or not according to the current turn utterances and the history and gives some explanation. You should evaluate them one by one and finally output all the incorrect domain-slot, value, pairs.
+
+# Output Format:
+Please output your analysis in JSON format as follows:
+{{
+"explanation": <a belief explanation of your judgement>,
+// incorrect domain-slot, value pairs in "State of this turn". Note that only domain-slot, value pairs in "State of this turn" should be evaluated.
+"incorrect_domain_slot": {{"domain-slot1": <value1>, ...}}
+}}
